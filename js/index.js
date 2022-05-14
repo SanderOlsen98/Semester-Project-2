@@ -62,19 +62,5 @@ function addHeroPicture(json) {
                 </div>
             </section>
 
-            <section class="products-wrapper featured-products-container"></section>
-
-            <section class="reviews-container">
-                <h1>
-                    We'd love to hear from you.
-                </h1>
-                <div class="reviews-stars-container">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <div>Based on 1046 reviews.</div>
-            </section>`;
+            <section class="products-wrapper featured-products-container"></section>`;
 }
