@@ -3,7 +3,6 @@ header {
   background: map-get($colors, white);
 
   .nav-top {
-    border-bottom: $border;
     padding: 1rem 0;
 
     .container {
@@ -85,6 +84,7 @@ header {
 
   .nav-bottom {
     padding: 1.5rem 0;
+    // background-color: map-get($colors, nav);
 
     .container {
       display: flex;
@@ -174,7 +174,7 @@ i {
 
 .active {
   border: $border;
-  background: map-get($colors, black);
+  background: map-get($colors, blue);
   border-radius: $border-radius;
   color: map-get($colors, white);
 }

@@ -75,7 +75,7 @@ function createProductDetails(el) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
-                        142 reviews
+                        62 reviews
                     </div>
                 </div>
                 <div class="price">&#36; ${el.price}</div>
@@ -84,30 +84,6 @@ function createProductDetails(el) {
                 </p>
                 <div>
                     <button class="add-to-cart-btn ${addToCartBtnCss}" data-id="${el.id}">${addToCartBtnTxt}</button>
-                    <button class="go-to-cart-btn"><a href="/cart.html">Go to cart</a></button>
-                </div>
-                <div class="warranty-container">
-                    <i class="fas fa-thumbs-up"></i>
-                    <div>
-                        <p>
-                            Psst. We offer flavor warranty. <br />
-                            Don’t like the ice cream? Get a refund.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq">
-                    <div>
-                        <i class="fas fa-map-marker-alt"></i>
-                        Buy the ice cream in one of our <span>shops</span>?
-                    </div>
-                    <div>
-                        <i class="fas fa-question-circle"></i>
-                        Any <span>questions</span> about payments etc.?
-                    </div>
-                    <div>
-                        <i class="fas fa-ice-cream"></i>
-                        <span>Ingredients</span> info.
-                    </div>
                 </div>
             </section>`;
 

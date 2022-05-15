@@ -108,7 +108,6 @@ button a {
 }
 
 .danger-btn {
-  background: red;
   color: #fff;
 }
 
@@ -236,7 +235,7 @@ table tr span {
   display: block;
   width: 8rem;
   height: 8rem;
-  border: 10px solid #1613cc;
+  border: 10px solid #509ddc;
   border-top: none;
   border-bottom: none;
   -webkit-animation: loader 2s linear infinite;
@@ -274,10 +273,6 @@ table tr span {
 
 .message-success {
   font-weight: bolder;
-}
-
-.message-error {
-  color: red;
 }
 
 .message-error-center {
@@ -432,7 +427,6 @@ header {
 }
 
 header .nav-top {
-  border-bottom: 1px solid #b6b6b6;
   padding: 1rem 0;
 }
 
@@ -654,7 +648,7 @@ i {
 
 .active {
   border: 1px solid #b6b6b6;
-  background: #1c1c1c;
+  background: #509ddc;
   border-radius: 7px;
   color: #fff;
 }
@@ -976,7 +970,7 @@ h1 .card-product .card-product-info .card-product-info-txt {
 }
 
 .added-to-cart {
-  background: #1613cc;
+  background: #509ddc;
   font-weight: bold;
 }
 
@@ -993,6 +987,10 @@ h1 .card-product .card-product-info .card-product-info-txt {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.background {
+  color: blue !important;
 }
 
 .hero,
@@ -1597,6 +1595,5 @@ nav ol li:after {
 
 .faves-items-container .add-all-to-cart {
   max-width: 30rem;
-  background: #ab5486;
 }
 /*# sourceMappingURL=style.css.map */

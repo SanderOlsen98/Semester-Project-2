@@ -30,7 +30,7 @@ export default function createHeader() {
     <header>
         <div class="nav-top">
             <div class="container">
-                <a href="index.html"><img src="img/merchiee-logo-orange.png" alt="merchiee logo"></a>
+                <a href="index.html"><img src="img/merchiee-logo-blue.png" alt="merchiee logo"></a>
                 <div class="nav-top-links">
                     <nav>
                         <ul>

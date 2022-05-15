@@ -5,7 +5,7 @@ export default function createFooter() {
         <div class="container">
             <div class="footer-wrapper-inner">
                 <div style="width: 100%;">
-                    <img src="../../img/merchiee-logo.png" alt="nicecream logo">
+                    <img src="../../img/merchiee-logo-blue.png" alt="merchiee logo">
                 </div>
                 <div class="footer-nav-wrapper">
                     <div>

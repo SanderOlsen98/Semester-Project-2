@@ -39,7 +39,9 @@ function addHeroPicture(json) {
   container.innerHTML = `
             <div class="hero" style="background: url('http://localhost:1337${json.hero_banner.formats.large.url}') center no-repeat">
                 <a href="menu.html">
+                  <div class="background">
                     <h1>Get your favourite shoes now!</h1>
+                  </div>
                 </a>
             </div>
 
