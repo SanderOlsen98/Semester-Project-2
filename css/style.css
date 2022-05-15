@@ -886,7 +886,8 @@ textarea {
   color: #fff;
 }
 
-.cards {
+.cards,
+h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -898,14 +899,20 @@ textarea {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  color: #1c1c1c !important;
+  text-shadow: 2px 2px lightgrey !important;
 }
 
 .cards h1,
-.cards h2 {
+.cards h2,
+h1 h1,
+h1 h2 {
   margin: 0;
+  font-size: 5rem;
 }
 
-.cards .card-product {
+.cards .card-product,
+h1 .card-product {
   width: 20%;
   min-width: 32rem;
   min-height: 40rem;
@@ -915,11 +922,13 @@ textarea {
   margin: 1rem;
 }
 
-.cards .card-product a {
+.cards .card-product a,
+h1 .card-product a {
   text-decoration: none;
 }
 
-.cards .card-product a div {
+.cards .card-product a div,
+h1 .card-product a div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -932,7 +941,8 @@ textarea {
   text-decoration: none;
 }
 
-.cards .card-product .card-product-info {
+.cards .card-product .card-product-info,
+h1 .card-product .card-product-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -946,12 +956,14 @@ textarea {
   padding: 2rem;
 }
 
-.cards .card-product .card-product-info .card-product-create-txt {
+.cards .card-product .card-product-info .card-product-create-txt,
+h1 .card-product .card-product-info .card-product-create-txt {
   text-align: center;
   width: 100%;
 }
 
-.cards .card-product .card-product-info .card-product-info-txt {
+.cards .card-product .card-product-info .card-product-info-txt,
+h1 .card-product .card-product-info .card-product-info-txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1016,7 +1028,7 @@ textarea {
 }
 
 .card1-upper {
-  background: url("/img/index/card1.jpg") center no-repeat;
+  background: url("/img/index/large_giorgio_trovato_Rr_NK_Ff_M9j_JI_unsplash_f5b55f3a5c.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -1027,7 +1039,7 @@ textarea {
 }
 
 .card2-upper {
-  background: url("/img/index/card2.jpg") center no-repeat;
+  background: url("/img/index/large_revolt_164_6w_VE_Hf_I_unsplash_a283fe5ce0.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -1035,12 +1047,6 @@ textarea {
   .card2-upper {
     width: 100%;
   }
-}
-
-.card3-upper {
-  background: url("/img/index/card3.jpg") center no-repeat;
-  background-size: cover;
-  width: 100%;
 }
 
 .reviews-container {

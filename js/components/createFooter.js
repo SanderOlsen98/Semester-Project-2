@@ -9,55 +9,37 @@ export default function createFooter() {
                 </div>
                 <div class="footer-nav-wrapper">
                     <div>
-                        <h1>Ice cream</h1>
-                        <nav>
-                            <ul>
-                                <li><a href="menu.html">Our menu</a></li>
-                                <li><a href="">Inspo</a></li>
-                                <li><a href="">Recipes</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div>
-                        <h1>Learn more</h1>
+                        <h1>Learn more about Merchiee</h1>
                         <nav>
                             <ul>
                                 <li><a href="">About us</a></li>
-                                <li><a href="">Press</a></li>
-                                <li><a href="">Join the fun!</a></li>
+                                <li><a href="">Media</a></li>
+                                <li><a href="">Events</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div>
-                        <h1>Help</h1>
+                        <h1>Need Help?</h1>
                         <nav>
                             <ul>
                                 <li><a href="">FAQ</a></li>
-                                <li><a href="">Ingredient info</a></li>
                                 <li><a href="">Payment info</a></li>
                                 <li><a href="">Contact us</a></li>
-                                <li><a href="">Cookies and privacy</a></li>
+                                <li><a href="">Terms and Conditions</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
                 <div>
-                    <div class="footer-socials">
-                        <h1>Follow us online</h1>
-                        <div>
-                            <i class="fab fa-instagram"></i>
-                            <i class="fab fa-youtube"></i>
-                        </div>
-                    </div>
+
                     <div>
                         <div>
-                            <i class="fas fa-phone-volume"></i> 012345678 <br />
-                            Every day 8AM - 4PM.
+                            <i class="fas fa-phone-volume"></i> 9999999 <br />
+                            Every day 08:00 - 15:30
                         </div>
                         <div>
                             <i class="fas fa-envelope"></i>
-                            fake@email.com <br />
-                            We answer within 24 hours.
+                            merchiee@merchiee.com <br />
                         </div>
                     </div>
                 </div>

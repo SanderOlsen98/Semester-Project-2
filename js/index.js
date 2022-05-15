@@ -37,9 +37,9 @@ function addHeroPicture(json) {
 
   const container = document.querySelector(".index-container");
   container.innerHTML = `
-            <div class="hero" style="background: url('../img/index/bannerf1.jpg') center no-repeat">
+            <div class="hero" style="background: url('http://localhost:1337${json.hero_banner.formats.large.url}') center no-repeat">
                 <a href="menu.html">
-                    <h1>Get Your Favorite F1 Merchendise Now!</h1>
+                    <h1>Get your favourite shoes now!</h1>
                 </a>
             </div>
 
@@ -51,13 +51,7 @@ function addHeroPicture(json) {
                 </div>
                 <div class="card-upper card2-upper">
                     <a href="menu.html">
-                        <h1>Racing&#8250;</h1>
-                    </a>
-                </div>
-                <div class="card-upper card3-upper">
-                    <a href="menu.html">
-                        <h1>Visit a Grand Prix</h1>
-                        <h2>Where you will get the ultimate experience</h2>
+                        <h1>Terrain&#8250;</h1>
                     </a>
                 </div>
             </section>

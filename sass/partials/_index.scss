@@ -28,7 +28,8 @@
 }
 
 .card1-upper {
-  background: url("/img/index/card1.jpg") center no-repeat;
+  background: url("/img/index/large_giorgio_trovato_Rr_NK_Ff_M9j_JI_unsplash_f5b55f3a5c.jpg")
+    center no-repeat;
   background-size: cover;
 
   @media only screen and (max-width: map-get($media-widths, tablet)) {
@@ -37,18 +38,13 @@
 }
 
 .card2-upper {
-  background: url("/img/index/card2.jpg") center no-repeat;
+  background: url("/img/index/large_revolt_164_6w_VE_Hf_I_unsplash_a283fe5ce0.jpg")
+    center no-repeat;
   background-size: cover;
 
   @media only screen and (max-width: map-get($media-widths, tablet)) {
     width: 100%;
   }
-}
-
-.card3-upper {
-  background: url("/img/index/card3.jpg") center no-repeat;
-  background-size: cover;
-  width: 100%;
 }
 
 .reviews-container {

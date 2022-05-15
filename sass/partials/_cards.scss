@@ -14,17 +14,21 @@
   }
 }
 
-.cards {
+.cards,
+h1 {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2rem;
   min-width: 100%;
   justify-content: center;
   text-align: center;
+  color: map-get($colors, black) !important;
+  text-shadow: 2px 2px lightgrey !important;
 
   h1,
   h2 {
     margin: 0;
+    font-size: 5rem;
   }
 
   .card-product {
