@@ -62,7 +62,7 @@ function createProductDetails(el) {
                 </ol>
             </nav>
 
-            <section class="product-details-img" style="background: url('/strapi/public/${el.image.url}') center no-repeat; background-size: cover;>
+            <section class="product-details-img" style="background: url('http://localhost:1337${el.image.formats.large.url}') center no-repeat; background-size: cover;>
                 <i class="fas fa-heart heart"></i>
             </section>
 
