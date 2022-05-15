@@ -51,7 +51,7 @@ function addHeroPicture(json) {
                 </div>
                 <div class="card-upper card2-upper">
                     <a href="menu.html">
-                        <h1>Terrain&#8250;</h1>
+                        <h1>Running&#8250;</h1>
                     </a>
                 </div>
             </section>

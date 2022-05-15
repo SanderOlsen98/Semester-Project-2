@@ -16,7 +16,7 @@ export default function createMenu(arr) {
                       </a>
                       <div class="card-product-info">
                           <div class="card-product-create-txt">
-                              Create your own!
+                              Our Top Seller!
                           </div >
                       </div >
                   </div>`;
