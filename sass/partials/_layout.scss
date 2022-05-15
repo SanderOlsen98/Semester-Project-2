@@ -1,15 +1,3 @@
-:root {
-  /*no scrollbar in Firefox*/
-  scrollbar-width: none;
-  /*no scrollbar in IE*/
-  -ms-overflow-style: none;
-}
-
-/*no scrollbar in Chrome and Safari*/
-::-webkit-scrollbar {
-  display: none;
-}
-
 html,
 body {
   margin: 0;
@@ -195,12 +183,12 @@ table {
 .loader:after {
   content: " ";
   display: block;
-  width: 4rem;
-  height: 4rem;
-  border: 10px solid map-get($colors, purple);
+  width: 8rem;
+  height: 8rem;
+  border: 10px solid map-get($colors, blue);
   border-top: none;
   border-bottom: none;
-  animation: loader 4s linear infinite;
+  animation: loader 2s linear infinite;
   border-radius: 50%;
 }
 
