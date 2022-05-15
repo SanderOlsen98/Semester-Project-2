@@ -132,7 +132,7 @@ function submitForm(name, price, description, featured, img, event) {
       imgValue.type !== "image/jpg" &&
       imgValue.type !== "image/png");
 
-  // image error - Strapi supports a file that is maximum 200MB
+  // image error
   const messageErrorImg = document.querySelector(".message-error-img");
   if (img.files.length > 0 && notCorrectImage) {
     messageErrorImg.innerHTML = displayMessage(
