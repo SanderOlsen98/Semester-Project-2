@@ -24,8 +24,8 @@ export function createFaves() {
   if (faves.length < 1) {
     container.innerHTML = `
             <section class="faves-items-container">
-                <h1>Your faves</h1>
-                There's nothing here... Feel free to browse our <a href="shop.html" style="text-decoration: underline">shop</a>.
+                <h1>Your Favourites</h1>
+                There's nothing here yet... Feel free to browse our <a href="shop.html" style="text-decoration: underline">shop</a>.
             </section>`;
 
     return;

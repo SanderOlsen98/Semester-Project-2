@@ -1,20 +1,19 @@
-import createHeader from './components/createHeader.js';
-import loginUser from './constants/loginUser.js';
-import { isLoggedIn } from './constants/loggedInStatus.js';
-import createFooter from './components/createFooter.js';
+import createHeader from "./components/createHeader.js";
+import loginUser from "./constants/loginUser.js";
+import { isLoggedIn } from "./constants/loggedInStatus.js";
+import createFooter from "./components/createFooter.js";
 
 if (!isLoggedIn) {
-    createHeader();
-    createLoginForm();
-    createFooter();
+  createHeader();
+  createLoginForm();
+  createFooter();
 } else {
-    location.href = "/account.html";
-};
+  location.href = "/account.html";
+}
 
 function createLoginForm() {
-
-    const container = document.querySelector(".account-and-login-container");
-    container.innerHTML = `
+  const container = document.querySelector(".account-and-login-container");
+  container.innerHTML = `
             
             <section>
 
@@ -37,30 +36,29 @@ function createLoginForm() {
 
             <section>
 
-                <h1>I'm a new member!</h1>
+                <h1>New here? Sign up now!</h1>
 
-                <button>Sign up here!</button>
+                <button>Sign up</button>
 
             </section>`;
 
-    const form = document.querySelector("form");
-    form.addEventListener("submit", submitForm);
-};
+  const form = document.querySelector("form");
+  form.addEventListener("submit", submitForm);
+}
 
 function submitForm(event) {
+  event.preventDefault();
 
-    event.preventDefault();
+  const username = document.querySelector(".username");
+  const password = document.querySelector(".password");
+  const message = document.querySelector(".message");
 
-    const username = document.querySelector(".username");
-    const password = document.querySelector(".password");
-    const message = document.querySelector(".message");
+  message.innerHTML = "";
 
-    message.innerHTML = "";
+  // the username is case sensitive in Strapi, personally I chose a lowercase username
+  // so to make sure the input value is not case sensitive, do .toLowerCase()
+  const usernameValue = username.value.toLowerCase().trim();
+  const passwordValue = password.value.trim();
 
-    // the username is case sensitive in Strapi, personally I chose a lowercase username
-    // so to make sure the input value is not case sensitive, do .toLowerCase()
-    const usernameValue = username.value.toLowerCase().trim();
-    const passwordValue = password.value.trim();
-
-    loginUser(usernameValue, passwordValue);
-};
+  loginUser(usernameValue, passwordValue);
+}
