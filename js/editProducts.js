@@ -2,7 +2,7 @@ import { baseUrl, apiUrl, tokenKey } from "./constants/variables.js";
 import createHeader from "./components/createHeader.js";
 import createAdminBanner from "./components/createAdminBanner.js";
 import createFooter from "./components/createFooter.js";
-import createMenuInput from "./components/createMenuInput.js";
+import createShopInput from "./components/createShopInput.js";
 import displayMessage from "./constants/displayMessage.js";
 import { getLocalStorage } from "./constants/handleStorage.js";
 import getStrapiSettings from "./constants/getStrapiSettings.js";
@@ -19,7 +19,7 @@ if (isLoggedIn) {
 
       createHeader();
       createAdminBanner();
-      createMenuInput(json.length);
+      createShopInput(json.length);
       createProductsList(json);
       createFooter();
       handleSearch(json, createProductsList);

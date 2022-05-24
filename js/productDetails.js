@@ -57,7 +57,7 @@ function createProductDetails(el) {
             <nav>
                 <ol>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="shop.html">Shop</a></li>
                     <li><a href="#">${el.title}</a></li>
                 </ol>
             </nav>

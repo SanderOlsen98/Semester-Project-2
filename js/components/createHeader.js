@@ -13,16 +13,13 @@ export default function createHeader() {
   if (isLoggedIn) {
     // what a logged in user sees
     links = `
-                <li><a href="/account.html"><i class="far fa-login"></i> Account</a></li>
+                <li><a href="/account.html"><i class="far fa-login"></i> My Account</a></li>
                 <li><a><span class="logout-btn">Logout</span></a></li>`;
   } else {
-    // what a none logged in user sees
+    // If youre not logged in, this is what the user will see
     links = `
                 <li><a href="/login.html"><i class="fas fa-sign-in-alt"></i> Login</a></li>`;
   }
-
-  // had to add an invisible div at the bottom of the mobile nav container, because it didn't want to scroll to the bottom
-  // I got the "code" from https://stackoverflow.com/questions/37287506/scrollbar-not-scrolling-completely-down-the-page/37287769
 
   const header = document.querySelector(".header-container");
 
@@ -52,7 +49,7 @@ export default function createHeader() {
                 <nav class="nav-desktop">
                     <ul>
                         <li><a href="/index.html">Home</a></li>
-                        <li><a href="/menu.html">Store</a></li>
+                        <li><a href="/shop.html">Shop</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Buy Tickets!</a></li>
@@ -78,25 +75,11 @@ export default function createHeader() {
         <div class="nav-mobile-inner">
             <nav>
                 <ul>
-                    <li><a href="/menu.html">Menu</a></li>
-                    <li><a href="#">Gifts</a></li>
-                    <li><a href="#">Shops</a></li>
-                    <li><a href="#">Inspo</a></li>
-                    <li><a href="#">Recipes</a></li>
-                </ul>
-            </nav>
-            <nav>
-                <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">Join the fun!</a></li>
-                </ul>
-            </nav>
-            <nav>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Ingredient info</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                        <li><a href="/shop.html">Shop</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Buy Tickets!</a></li>
                 </ul>
             </nav>
             <nav>

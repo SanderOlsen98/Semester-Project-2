@@ -8,7 +8,7 @@ import createProductCard from "./createProductCard.js";
 export default function createFeaturedProducts(arr) {
   const outerContainer = document.querySelector(".featured-products-container");
   outerContainer.innerHTML = `
-                <h1>Featured Products</h1>
+                <h1>Our Featured Products</h1>
                 <div class="cards">
                     <div class="featured-products-cards"></div>
                 </div>`;

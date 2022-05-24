@@ -34,8 +34,8 @@ export default function createFooter() {
 
                     <div>
                         <div>
-                            <i class="fas fa-phone-volume"></i> 9999999 <br />
-                            Every day 08:00 - 15:30
+                            <i class="fas fa-phone-volume"></i> +47123456789 <br />
+                            <p>Every day 08:00 - 15:30</p>
                         </div>
                         <div>
                             <i class="fas fa-envelope"></i>

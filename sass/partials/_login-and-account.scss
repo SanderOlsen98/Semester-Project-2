@@ -18,7 +18,6 @@
 // FOR EDIT PRODUCTS PAGE
 .delete-product-message-container {
   background: map-get($colors, white);
-  border-bottom: $border;
   box-shadow: $shadow;
   padding-bottom: 2rem;
   position: fixed;
@@ -31,7 +30,6 @@
 
 // FOR ALL ACCOUNT PAGES
 .account-loggedin-title {
-  border-bottom: $border;
   margin: 0;
   padding: 1rem 2rem;
 }
@@ -45,12 +43,13 @@
   h2 {
     padding: 3rem 0;
     margin: 0;
+    color: map-get($colors, darkgrey) !important;
   }
 
   h1 {
-    border-bottom: $border;
     width: 100%;
     text-align: center;
+    color: map-get($colors, black) !important;
   }
 
   div {

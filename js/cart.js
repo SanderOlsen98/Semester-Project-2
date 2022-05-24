@@ -60,7 +60,7 @@ export function createCart() {
                 <div class="faq">
                     <div>
                         <i class="fas fa-map-marker-alt"></i>
-                        Would you like to buy your shoes at the <span>store</span>?
+                        Would you like to buy your shoes at the <span>shop</span>?
                     </div>
                 </div>
 
@@ -75,7 +75,7 @@ export function createCart() {
     container.innerHTML = `
             <section class="cart-items-container" style="text-align: center">
                 <h1>Your cart</h1>
-                There's nothing here... Return to our <a href="menu.html" style="text-decoration: underline"> Store</a>
+                There's nothing here... Return to our <a href="shop.html" style="text-decoration: underline"> Store</a>
             </section>`;
   }
 

@@ -95,7 +95,7 @@ button {
   padding: 1rem 5rem;
   height: 5rem;
   margin: 1rem 0;
-  border: 1px solid #b6b6b6;
+  border: 1px solid;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
   padding: 1rem;
@@ -104,10 +104,11 @@ button {
 
 button a {
   text-decoration: none;
-  color: #fff;
+  color: #1c1c1c;
 }
 
 .danger-btn {
+  background: #ff0000 !important;
   color: #fff;
 }
 
@@ -175,7 +176,6 @@ nav ol li .login {
 .faq div i {
   font-size: 1.6rem;
   padding-right: 1rem;
-  color: #b6b6b6;
 }
 
 .faq div span {
@@ -273,6 +273,10 @@ table tr span {
 
 .message-success {
   font-weight: bolder;
+}
+
+.message-error {
+  color: #ff0000;
 }
 
 .message-error-center {
@@ -422,7 +426,7 @@ footer .footer-bottom {
 }
 
 header {
-  border-bottom: 1px solid #b6b6b6;
+  border-bottom: 1px solid;
   background: #fff;
 }
 
@@ -592,7 +596,6 @@ i {
 }
 
 .nav-mobile {
-  background: #faf7f7;
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -621,8 +624,8 @@ i {
 
 .nav-mobile .nav-mobile-title-container {
   padding-left: 1rem;
-  border-top: 1px solid #b6b6b6;
-  border-bottom: 1px solid #b6b6b6;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
   margin-top: 8.4rem;
 }
 
@@ -633,7 +636,7 @@ i {
 }
 
 .nav-mobile .nav-mobile-inner nav {
-  border-bottom: 1px solid #b6b6b6;
+  border-bottom: 1px solid;
 }
 
 .nav-mobile .nav-mobile-inner nav ul {
@@ -647,7 +650,7 @@ i {
 }
 
 .active {
-  border: 1px solid #b6b6b6;
+  border: 1px solid;
   background: #509ddc;
   border-radius: 7px;
   color: #fff;
@@ -666,10 +669,6 @@ i {
 
 nav ul li .login {
   text-decoration: underline;
-}
-
-footer {
-  background: #faf7f7;
 }
 
 footer .footer-wrapper-inner {
@@ -762,7 +761,7 @@ form div label {
 }
 
 input {
-  border: 1px solid #b6b6b6;
+  border: 1px solid;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
   padding: 1.2rem;
@@ -858,7 +857,7 @@ textarea {
   max-width: 100%;
   min-width: 100%;
   padding: 1rem;
-  border: 1px solid #b6b6b6;
+  border: 1px solid;
   border-radius: 7px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
@@ -869,7 +868,7 @@ textarea {
 }
 
 .add-to-cart-btn {
-  background: #1c1c1c;
+  background: #68b880 !important;
   color: #fff;
   padding: 1.7rem 5rem;
   min-width: 100%;
@@ -909,7 +908,6 @@ h1 .card-product {
   width: 20%;
   min-width: 32rem;
   min-height: 40rem;
-  background: #faf7f7;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
   margin: 1rem;
@@ -970,7 +968,7 @@ h1 .card-product .card-product-info .card-product-info-txt {
 }
 
 .added-to-cart {
-  background: #509ddc;
+  background: #509ddc !important;
   font-weight: bold;
 }
 
@@ -1193,7 +1191,6 @@ nav ol li:after {
 
 .delete-product-message-container {
   background: #fff;
-  border-bottom: 1px solid #b6b6b6;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
   padding-bottom: 2rem;
@@ -1206,7 +1203,6 @@ nav ol li:after {
 }
 
 .account-loggedin-title {
-  border-bottom: 1px solid #b6b6b6;
   margin: 0;
   padding: 1rem 2rem;
 }
@@ -1226,12 +1222,13 @@ nav ol li:after {
 .account-title-container h2 {
   padding: 3rem 0;
   margin: 0;
+  color: #353535 !important;
 }
 
 .account-title-container h1 {
-  border-bottom: 1px solid #b6b6b6;
   width: 100%;
   text-align: center;
+  color: #1c1c1c !important;
 }
 
 .account-title-container div {
@@ -1361,7 +1358,7 @@ nav ol li:after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #b6b6b6;
+  border-bottom: 1px solid;
   padding-bottom: 3rem;
 }
 
@@ -1545,7 +1542,7 @@ nav ol li:after {
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.123);
   border-radius: 7px;
-  border: 1px solid #b6b6b6;
+  border: 1px solid;
   padding: 2rem;
 }
 

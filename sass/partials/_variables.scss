@@ -1,5 +1,3 @@
-// @font-face code from: https://css-tricks.com/snippets/css/using-font-face/
-
 // h1
 @font-face {
   font-family: "Title";
@@ -87,9 +85,9 @@ $colors: (
   nav: #b1d0eb,
   blue: #509ddc,
   black: rgb(28, 28, 28),
-  lightgrey: #faf7f7,
-  grey: rgb(182, 182, 182),
+  lightgreen: #68b880,
   darkgrey: rgb(53, 53, 53),
+  red: #ff0000,
 );
 
 $media-widths: (

@@ -64,12 +64,12 @@ button {
 
   a {
     text-decoration: none;
-    color: map-get($colors, white);
+    color: map-get($colors, black);
   }
 }
 
 .danger-btn {
-  background: map-get($colors, red);
+  background: map-get($colors, red) !important;
   color: map-get($colors, white);
 }
 

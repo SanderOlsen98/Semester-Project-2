@@ -1,4 +1,4 @@
-export default function createMenuInput(totalProducts) {
+export default function createShopInput(totalProducts) {
   const container = document.querySelector(".menu-input-container");
   container.innerHTML = `
             <div class="menu-input">

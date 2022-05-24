@@ -2,7 +2,7 @@ import { getLocalStorage } from "../constants/handleStorage.js";
 import { cartKey, faveKey } from "../constants/variables.js";
 import createProductCard from "./createProductCard.js";
 
-export default function createMenu(arr) {
+export default function createShop(arr) {
   console.log("menu", arr);
 
   const loader = document.querySelector(".loader");

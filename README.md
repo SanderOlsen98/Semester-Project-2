@@ -1,5 +1,10 @@
-### Noroff semester project 2
+Noroff Semester Project 2
 
-> Created with Strapi, JavaScript, HTML and Sass.
+Created by Sander Lindberg Olsen
 
-PS. I did not include the strapi server here (too many files), so you'd have to install it locally.
+June 2022
+
+Created with Strapi, JavaScript, SASS and HTML
+
+Strapi file is not inlcuded here, you have to install it locally, but i will include the GitHub repository here:
+https://github.com/NoroffFEU/strapi-sp2
